@@ -12,9 +12,9 @@ Tài khoản login api:
 
 ### Login và lấy access_token:
 - request:  Login api hoạt theo file đặc tả của ban tổ chức và lưu lại access token, ví dụ:
-<br>
+
 ``` 
-curl -X POST "http://localhost:8881/login" -H  "accept: application/json" -H  "Content-Type: application/x-www-form-urlencoded" -d "grant_type=&username=admin%40sun-asterisk.com&password=72landmark&scope=&client_id=&client_secret="
+curl -X POST "http://localhost:8881/login" -H  "accept: application/json" -H  "Content-Type: application/x-www-form-urlencoded" -d "grant_type=&username=admin%40sun-asterisk.com&password=72landmark&scope=&client_id=&client_secret=" 
 ```
 
 - response có dạng sau:
